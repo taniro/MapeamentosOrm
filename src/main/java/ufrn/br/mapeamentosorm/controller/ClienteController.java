@@ -1,16 +1,16 @@
-package tads.eaj.ufrn.loja.controller;
+package ufrn.br.mapeamentosorm.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tads.eaj.ufrn.loja.model.Cliente;
-import tads.eaj.ufrn.loja.model.Endereco;
-import tads.eaj.ufrn.loja.service.ClienteService;
+import ufrn.br.mapeamentosorm.model.Cliente;
+import ufrn.br.mapeamentosorm.model.Endereco;
+import ufrn.br.mapeamentosorm.service.ClienteService;
 
 
 import java.util.List;
 import java.util.Optional;
 
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+//import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 
 @RestController
 @RequestMapping("/cliente")

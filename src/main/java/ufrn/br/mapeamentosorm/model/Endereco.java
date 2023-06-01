@@ -1,12 +1,9 @@
-package tads.eaj.ufrn.loja.model;
+package ufrn.br.mapeamentosorm.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.hateoas.RepresentationModel;
-
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
+import jakarta.persistence.*;
 
 @AllArgsConstructor
 @NoArgsConstructor

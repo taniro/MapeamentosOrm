@@ -1,14 +1,10 @@
-package tads.eaj.ufrn.loja.model;
+package ufrn.br.mapeamentosorm.model;
 
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import org.springframework.hateoas.RepresentationModel;
-
-import javax.persistence.*;
-import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -30,10 +26,13 @@ public class Cliente {
 	 */
 
 
+	/*
 	//Caso 2
-	@OneToOne (cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
+	@OneToOne(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
 	@JoinColumn(name = "endereco_id")
 	Endereco endereco;
+
+	 */
 
 
 	/*
@@ -51,8 +50,10 @@ public class Cliente {
 	 */
 
 
-
+	/*
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true, mappedBy = "cliente")
 	List<Pedido> pedidos;
+
+	 */
 
 }

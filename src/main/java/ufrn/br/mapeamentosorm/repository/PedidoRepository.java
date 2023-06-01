@@ -1,7 +1,7 @@
-package tads.eaj.ufrn.loja.repository;
+package ufrn.br.mapeamentosorm.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import tads.eaj.ufrn.loja.model.Pedido;
+import ufrn.br.mapeamentosorm.model.Pedido;
 
 public interface PedidoRepository extends JpaRepository<Pedido, Long> {
 }

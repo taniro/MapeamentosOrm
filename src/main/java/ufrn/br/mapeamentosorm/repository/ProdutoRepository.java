@@ -1,7 +1,7 @@
-package tads.eaj.ufrn.loja.repository;
+package ufrn.br.mapeamentosorm.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import tads.eaj.ufrn.loja.model.Produto;
+import ufrn.br.mapeamentosorm.model.Produto;
 
 public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 }

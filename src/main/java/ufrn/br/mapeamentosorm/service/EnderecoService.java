@@ -1,9 +1,9 @@
-package tads.eaj.ufrn.loja.service;
+package ufrn.br.mapeamentosorm.service;
 
 
 import org.springframework.stereotype.Service;
-import tads.eaj.ufrn.loja.model.Endereco;
-import tads.eaj.ufrn.loja.repository.EnderecoRepositoty;
+import ufrn.br.mapeamentosorm.model.Endereco;
+import ufrn.br.mapeamentosorm.repository.EnderecoRepositoty;
 
 import java.util.List;
 import java.util.Optional;

@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MapeamentosOrmApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MapeamentosOrmApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MapeamentosOrmApplication.class, args);
+    }
 
 }

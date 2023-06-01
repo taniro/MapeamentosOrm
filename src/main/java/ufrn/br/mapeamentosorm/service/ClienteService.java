@@ -1,9 +1,8 @@
-package tads.eaj.ufrn.loja.service;
+package ufrn.br.mapeamentosorm.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tads.eaj.ufrn.loja.model.Cliente;
-import tads.eaj.ufrn.loja.repository.ClienteRepository;
+import ufrn.br.mapeamentosorm.model.Cliente;
+import ufrn.br.mapeamentosorm.repository.ClienteRepository;
 
 import java.util.List;
 import java.util.Optional;

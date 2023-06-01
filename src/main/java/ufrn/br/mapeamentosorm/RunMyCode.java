@@ -1,18 +1,18 @@
-package tads.eaj.ufrn.loja;
+package ufrn.br.mapeamentosorm;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
-import tads.eaj.ufrn.loja.model.Cliente;
-import tads.eaj.ufrn.loja.model.Endereco;
-import tads.eaj.ufrn.loja.model.Pedido;
-import tads.eaj.ufrn.loja.model.Produto;
-import tads.eaj.ufrn.loja.repository.ClienteRepository;
-import tads.eaj.ufrn.loja.repository.EnderecoRepositoty;
-import tads.eaj.ufrn.loja.repository.PedidoRepository;
+import ufrn.br.mapeamentosorm.model.Cliente;
+import ufrn.br.mapeamentosorm.model.Endereco;
+import ufrn.br.mapeamentosorm.model.Pedido;
+import ufrn.br.mapeamentosorm.model.Produto;
+import ufrn.br.mapeamentosorm.repository.ClienteRepository;
+import ufrn.br.mapeamentosorm.repository.EnderecoRepositoty;
+import ufrn.br.mapeamentosorm.repository.PedidoRepository;
 
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,6 +35,7 @@ public class RunMyCode implements ApplicationRunner {
 	public void run(ApplicationArguments args) throws Exception {
 
 
+		/*
 		Cliente c1 = clienteRepository.getOne(1L);
 		System.out.println(c1.getNome());
 
@@ -44,6 +45,8 @@ public class RunMyCode implements ApplicationRunner {
 			System.out.println(p.getDataPedido());
 			System.out.println(p.getCliente().getNome());
 		}
+
+		 */
 
 		/*
 		Pedido p1 = new Pedido();

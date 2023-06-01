@@ -1,10 +1,10 @@
-package tads.eaj.ufrn.loja.model;
+package ufrn.br.mapeamentosorm.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.List;
 
 @AllArgsConstructor
